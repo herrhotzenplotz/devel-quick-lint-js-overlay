@@ -1,5 +1,5 @@
 PORTNAME=	quick-lint-js
-DISTVERSION=	2.4.2
+DISTVERSION=	2.6.0
 CATEGORIES=	devel
 
 MAINTAINER=	nsonack@outlook.com
@@ -20,8 +20,8 @@ COMPLETION_DESC=	Install bash, fish and zsh completions
 CMAKE_OFF=	BUILD_TESTING
 
 PLIST_FILES=		bin/quick-lint-js \
-			man/man1/quick-lint-js.1.gz \
-			man/man5/quick-lint-js.config.5.gz \
+			share/man/man1/quick-lint-js.1.gz \
+			share/man/man5/quick-lint-js.config.5.gz \
 			share/icons/hicolor/scalable/apps/com.quick_lint.quick_lint_js.svg
 EDITOR_CMAKE_BOOL=	QUICK_LINT_JS_ENABLE_EDITORS \
 			QUICK_LINT_JS_ENABLE_VSCODE
