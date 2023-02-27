@@ -1,5 +1,5 @@
 PORTNAME=	quick-lint-js
-DISTVERSION=	2.9.0
+DISTVERSION=	2.11.0
 CATEGORIES=	devel
 
 MAINTAINER=	nsonack@outlook.com
